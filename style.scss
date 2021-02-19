@@ -1,0 +1,134 @@
+@import "variables";
+
+@font-face {
+  font-family: '#{$icomoon-font-family}';
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?y6segp');
+  src:  url('#{$icomoon-font-path}/#{$icomoon-font-family}.eot?y6segp#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.ttf?y6segp') format('truetype'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.woff?y6segp') format('woff'),
+    url('#{$icomoon-font-path}/#{$icomoon-font-family}.svg?y6segp##{$icomoon-font-family}') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: '#{$icomoon-font-family}' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.natrix-icon-json-file {
+  &:before {
+    content: $natrix-icon-json-file;
+  }
+}
+.natrix-icon-exe-file {
+  &:before {
+    content: $natrix-icon-exe-file;
+  }
+}
+.natrix-icon-applicationxperl_103626 .path1 {
+  &:before {
+    content: $natrix-icon-applicationxperl_103626-path1;
+    color: rgb(81, 185, 195);
+  }
+}
+.natrix-icon-applicationxperl_103626 .path2 {
+  &:before {
+    content: $natrix-icon-applicationxperl_103626-path2;
+    margin-left: -1em;
+    color: rgb(0, 0, 0);
+    opacity: 0.392;
+  }
+}
+.natrix-icon-applicationxperl_103626 .path3 {
+  &:before {
+    content: $natrix-icon-applicationxperl_103626-path3;
+    margin-left: -1em;
+    color: rgb(126, 197, 203);
+  }
+}
+.natrix-icon-applicationxperl_103626 .path4 {
+  &:before {
+    content: $natrix-icon-applicationxperl_103626-path4;
+    margin-left: -1em;
+    color: rgb(255, 255, 255);
+  }
+}
+.natrix-icon-node-dot-js {
+  &:before {
+    content: $natrix-icon-node-dot-js;
+    color: #393;
+  }
+}
+.natrix-icon-folder {
+  &:before {
+    content: $natrix-icon-folder;
+  }
+}
+.natrix-icon-batman {
+  &:before {
+    content: $natrix-icon-batman;
+  }
+}
+.natrix-icon-file-css {
+  &:before {
+    content: $natrix-icon-file-css;
+  }
+}
+.natrix-icon-document-file-php {
+  &:before {
+    content: $natrix-icon-document-file-php;
+  }
+}
+.natrix-icon-file-archive-o {
+  &:before {
+    content: $natrix-icon-file-archive-o;
+  }
+}
+.natrix-icon-file-zip-o {
+  &:before {
+    content: $natrix-icon-file-zip-o;
+  }
+}
+.natrix-icon-image {
+  &:before {
+    content: $natrix-icon-image;
+  }
+}
+.natrix-icon-file-text2 {
+  &:before {
+    content: $natrix-icon-file-text2;
+  }
+}
+.natrix-icon-database {
+  &:before {
+    content: $natrix-icon-database;
+  }
+}
+.natrix-icon-wrench {
+  &:before {
+    content: $natrix-icon-wrench;
+  }
+}
+.natrix-icon-cogs {
+  &:before {
+    content: $natrix-icon-cogs;
+  }
+}
+.natrix-icon-windows {
+  &:before {
+    content: $natrix-icon-windows;
+  }
+}
+
