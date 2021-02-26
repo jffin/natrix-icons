@@ -10,7 +10,7 @@
   font-display: block;
 }
 
-i .in {
+i.in {
   /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'natrix-icons' !important;
   speak: never;
