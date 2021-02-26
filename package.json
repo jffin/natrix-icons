@@ -4,8 +4,7 @@
   "description": "icons for natrix project",
   "main": "style.css",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "node-sass style.scss style.css"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
@@ -17,7 +16,5 @@
     "url": "https://github.com/jffin/natrix-icons/issues"
   },
   "homepage": "https://github.com/jffin/natrix-icons#readme",
-  "dependencies": {
-    "node-sass": "^5.0.0"
-  }
+  "dependencies": {}
 }
