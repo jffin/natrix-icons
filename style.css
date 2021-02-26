@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'natrix-icons';
-  src:  url('fonts/natrix-icons.eot?jwfi5d');
-  src:  url('fonts/natrix-icons.eot?jwfi5d#iefix') format('embedded-opentype'),
-    url('fonts/natrix-icons.ttf?jwfi5d') format('truetype'),
-    url('fonts/natrix-icons.woff?jwfi5d') format('woff'),
-    url('fonts/natrix-icons.svg?jwfi5d#natrix-icons') format('svg');
+  src:  url('fonts/natrix-icons.eot?fxn9db');
+  src:  url('fonts/natrix-icons.eot?fxn9db#iefix') format('embedded-opentype'),
+    url('fonts/natrix-icons.ttf?fxn9db') format('truetype'),
+    url('fonts/natrix-icons.woff?fxn9db') format('woff'),
+    url('fonts/natrix-icons.svg?fxn9db#natrix-icons') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,14 +25,11 @@ i.in {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.natrix-icon-PERL-512:before {
-  content: "\e907";
+.natrix-icon-noun_File_333952:before {
+  content: "\e906";
 }
 .natrix-icon-json-file:before {
   content: "\e904";
-}
-.natrix-icon-exe-file:before {
-  content: "\e906";
 }
 .natrix-icon-node-dot-js:before {
   content: "\e905";
