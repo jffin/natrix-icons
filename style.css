@@ -1,93 +1,87 @@
+@charset "UTF-8";
 @font-face {
-  font-family: 'natrix-icons';
-  src:  url('fonts/natrix-icons.eot?y6segp');
-  src:  url('fonts/natrix-icons.eot?y6segp#iefix') format('embedded-opentype'),
-    url('fonts/natrix-icons.ttf?y6segp') format('truetype'),
-    url('fonts/natrix-icons.woff?y6segp') format('woff'),
-    url('fonts/natrix-icons.svg?y6segp#natrix-icons') format('svg');
+  font-family: "natrix-icons";
+  src: url("fonts/natrix-icons.eot?y6segp");
+  src: url("fonts/natrix-icons.eot?y6segp#iefix") format("embedded-opentype"), url("fonts/natrix-icons.ttf?y6segp") format("truetype"), url("fonts/natrix-icons.woff?y6segp") format("woff"), url("fonts/natrix-icons.svg?y6segp#natrix-icons") format("svg");
   font-weight: normal;
   font-style: normal;
-  font-display: block;
-}
+  font-display: block; }
 
-i {
+i .in {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'natrix-icons' !important;
+  font-family: "natrix-icons" !important;
   speak: never;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
   text-transform: none;
   line-height: 1;
-
   /* Better Font Rendering =========== */
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+  -moz-osx-font-smoothing: grayscale; }
 
 .natrix-icon-json-file:before {
-  content: "\e904";
-}
+  content: ""; }
+
 .natrix-icon-exe-file:before {
-  content: "\e906";
-}
+  content: ""; }
+
 .natrix-icon-applicationxperl_103626 .path1:before {
-  content: "\e907";
-  color: rgb(81, 185, 195);
-}
+  content: "";
+  color: #51b9c3; }
+
 .natrix-icon-applicationxperl_103626 .path2:before {
-  content: "\e908";
+  content: "";
   margin-left: -1em;
-  color: rgb(0, 0, 0);
-  opacity: 0.392;
-}
+  color: black;
+  opacity: 0.392; }
+
 .natrix-icon-applicationxperl_103626 .path3:before {
-  content: "\e909";
+  content: "";
   margin-left: -1em;
-  color: rgb(126, 197, 203);
-}
+  color: #7ec5cb; }
+
 .natrix-icon-applicationxperl_103626 .path4:before {
-  content: "\e90a";
+  content: "";
   margin-left: -1em;
-  color: rgb(255, 255, 255);
-}
+  color: white; }
+
 .natrix-icon-node-dot-js:before {
-  content: "\e905";
-  color: #393;
-}
+  content: "";
+  color: #393; }
+
 .natrix-icon-folder:before {
-  content: "\e90b";
-}
+  content: ""; }
+
 .natrix-icon-batman:before {
-  content: "\e900";
-}
+  content: ""; }
+
 .natrix-icon-file-css:before {
-  content: "\e901";
-}
+  content: ""; }
+
 .natrix-icon-document-file-php:before {
-  content: "\e902";
-}
+  content: ""; }
+
 .natrix-icon-file-archive-o:before {
-  content: "\e903";
-}
+  content: ""; }
+
 .natrix-icon-file-zip-o:before {
-  content: "\e903";
-}
+  content: ""; }
+
 .natrix-icon-image:before {
-  content: "\e90d";
-}
+  content: ""; }
+
 .natrix-icon-file-text2:before {
-  content: "\e926";
-}
+  content: ""; }
+
 .natrix-icon-database:before {
-  content: "\e964";
-}
+  content: ""; }
+
 .natrix-icon-wrench:before {
-  content: "\e991";
-}
+  content: ""; }
+
 .natrix-icon-cogs:before {
-  content: "\e995";
-}
+  content: ""; }
+
 .natrix-icon-windows:before {
-  content: "\eac1";
-}
+  content: ""; }
