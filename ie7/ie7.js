@@ -13,9 +13,9 @@
 		el.innerHTML = '<span style="font-family: \'natrix-icons\'">' + entity + '</span>' + html;
 	}
 	var icons = {
+		'natrix-icon-PERL-512': '&#xe907;',
 		'natrix-icon-json-file': '&#xe904;',
 		'natrix-icon-exe-file': '&#xe906;',
-		'natrix-icon-applicationxperl_103626': '&#xe907;',
 		'natrix-icon-node-dot-js': '&#xe905;',
 		'natrix-icon-folder': '&#xe90b;',
 		'natrix-icon-batman': '&#xe900;',
